@@ -43,7 +43,7 @@ function App() {
           })
         }
       )
-      spotify.getPlaylist('37i9dQZF1E35B7RI1Ont8B').then( response => {
+      spotify.getPlaylist('37i9dQZEVXcOdAoZuY906w').then( response => {
         dispatch({
           type: 'SET_DAILYMIX',
           daily_mix: response

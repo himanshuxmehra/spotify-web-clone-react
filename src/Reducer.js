@@ -4,6 +4,8 @@ export const initialState = {
     playing: false,
     item: null,
     playlists: null,
+    currentsong: null,
+    playbackstate: "",
     //token: "BQBzbOQgzFIyzISwhgLECdWUTypwfvG6Zl2JOJ3D5tj4R4qGefVgMx4zomHJvpOqEU42xnuzZv-FyN6pVzkTtv7UX_Kgtk0cu-4PMAVaCnFpB7mdSiFwhVdfGFQg8zjG709pvAOLgq7QCbBZ9fV5Rgl6geNNFxU4PtLgIm8-d6LqzallEiyi",
 };
 
@@ -26,6 +28,18 @@ const reducer = (state, action) => {
         case 'SET_DAILYMIX':
             return {
                 ...state, daily_mix: action.daily_mix, 
+            }
+        case 'SET_CURRENTSONG':
+            return {
+                ...state, currentsong: action.currentsong, 
+            }
+        case 'SET_PLAYING':
+            return {
+                ...state, playing: action.playing, 
+            }
+        case 'SET_PLAYSTATE':
+            return {
+                ...state, playbackstate: action.playbackstate
             }
         default:
             return state;
