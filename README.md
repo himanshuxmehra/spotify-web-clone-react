@@ -3,7 +3,7 @@
 
 A spotify web player clone created using reactJs including fetching of user playlists, and controls to the playback.  
 I used the spotify-api for data fetching.
-
+![](https://raw.githubusercontent.com/himanshuxmehra/spotify-web-clone-react/main/img/screenshot.png)
 
 
 ## Environment Variables
@@ -28,8 +28,7 @@ You may also see any lint errors in the console.
 
 - Play/Pause Songs
 - Fetch user's Playlists
-- Fullscreen mode
-- Cross platform
+- Play Playlist
 
 
 ## 🛠 Tech
@@ -44,7 +43,8 @@ ReactJs, React Context API, CSS...
 
 ## 📸 Screenshots
 
-![App Screenshot]()
+![](https://raw.githubusercontent.com/himanshuxmehra/spotify-web-clone-react/main/img/screenshot.png)
+
 
 
 
